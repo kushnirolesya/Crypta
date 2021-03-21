@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Console.UI\Cryptology.ConsoleUI.csproj" />
+    
+    <ProjectReference Include="..\Cryptology.Algorithm\Cryptology.Algorithm.Afine\Cryptology.Affine.csproj" />
+    
+    <ProjectReference Include="..\Cryptology.Algorithm\Cryptology.Algorithm.Caesar\Cryptology.Caesar.csproj" />
+    <ProjectReference Include="..\Cryptology.Algorithm\Cryptology.Algorithm.Cardano\Cryptology.Cardano.csproj" />
+    <ProjectReference Include="..\Cryptology.Algorithm\Cryptology.Algorithm.Rail\Cryptology.Rail.csproj" />
+    <ProjectReference Include="..\Cryptology.Algorithm\Cryptology.Algorithm.Vijender\Cryptology.Vijender.csproj" />
+    <ProjectReference Include="..\Cryptology.Core\Cryptology.Core.csproj" />
+  </ItemGroup>
+
+</Project>

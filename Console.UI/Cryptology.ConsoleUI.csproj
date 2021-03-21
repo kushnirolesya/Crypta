@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Cryptology.ConsoleUI</AssemblyName>
+    <RootNamespace>Cryptology.ConsoleUI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Unity" Version="5.11.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cryptology.Algorithm\Cryptology.Algorithm.Afine\Cryptology.Affine.csproj" />
+    <ProjectReference Include="..\Cryptology.Algorithm\Cryptology.Algorithm.Caesar\Cryptology.Caesar.csproj" />
+    <ProjectReference Include="..\Cryptology.Algorithm\Cryptology.Algorithm.Cardano\Cryptology.Cardano.csproj" />
+    <ProjectReference Include="..\Cryptology.Algorithm\Cryptology.Algorithm.Rail\Cryptology.Rail.csproj" />
+    <ProjectReference Include="..\Cryptology.Algorithm\Cryptology.Algorithm.RSA\Cryptology.Rsa.csproj" />
+    <ProjectReference Include="..\Cryptology.Algorithm\Cryptology.Algorithm.Vijender\Cryptology.Vijender.csproj" />
+    <ProjectReference Include="..\Cryptology.Core\Cryptology.Core.csproj" />
+  </ItemGroup>
+
+</Project>
